@@ -9,11 +9,6 @@ title: DREAM Project Site
   <p>
     Researching how robots can use speech, gesture, and context to communicate more naturally with people in shared physical spaces.
   </p>
-  <p class="hero-links">
-    <a href="#project">Project</a>
-    <a href="https://github.com/juleechung/gesturehri">GitHub Repo</a>
-    <a href="blog.html">Research Journal</a>
-  </p>
 </section>
 
 ## About Me
@@ -30,6 +25,10 @@ I plan to graduate from Northeastern in 2027. I am fluent in English and Korean 
 
 This research is co-advised by professors [Zhi Tan](https://zhi.fyi/) and [Stacy C. Marsella](https://www.khoury.northeastern.edu/people/stacy-c-marsella/), and carried out of [PARCS Lab](https://parcslab.fyi/) and [CESAR Lab](https://www.cesarlab.org/).
 
+Professor Tan's research explores human-robot interaction, assistive robotics, and how robots can collaborate with people, other robots, and intelligent systems in real-world contexts.
+
+Professor Marsella's research focuses on computational models of cognition, emotion, and social behavior, with applications in virtual humans, social agents, and human-centered systems.
+
 ## About My Project
 {: #project }
 
@@ -41,20 +40,9 @@ Project materials are maintained in the [gesturehri repository](https://github.c
 
 [Final Report](final-report.html)
 
-## My Blog
+## Research Journal
 {: #blog }
 
-The research journal includes weekly entries documenting project goals, implementation progress, findings, and open questions.
+Documenting project goals, implementation progress, findings, and open questions.
 
-<div class="week-grid">
-  <a href="week1/">Week 1</a>
-  <a href="week2/">Week 2</a>
-  <a href="week3/">Week 3</a>
-  <a href="week4/">Week 4</a>
-  <a href="week5/">Week 5</a>
-  <a href="week6/">Week 6</a>
-  <a href="week7/">Week 7</a>
-  <a href="week8/">Week 8</a>
-</div>
-
-[View Research Journal](blog.html)
+[View Journal](blog.html)
