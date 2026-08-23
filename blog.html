@@ -1,12 +1,18 @@
 ---
 layout: default
+title: Research Journal
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<section class="journal-intro">
+  <h1>Research Journal</h1>
+  <p>Weekly notes from my DREAM research project on multimodal human-robot interaction.</p>
+</section>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<div class="journal-list">
+  {% assign journal_posts = site.posts | reverse %}
+  {% for post in journal_posts %}
+    <article class="journal-entry">
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
       <div class="entry">
         {{ post.excerpt }}
