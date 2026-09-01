@@ -2,16 +2,16 @@
 
 ## Overview
 
-This research examines multimodal human-robot interaction with Boston Dynamics Spot, studying how robots can interpret human communication through speech, gesture, visual context, gaze, and clarifying dialogue. The project focuses on socially grounded interaction in shared physical environments, with an interest in future museum applications.
+This research examines multimodal human-robot interaction with Boston Dynamics Spot, studying how a robot can ground human commands in perceptual context -- integrating speech, gesture, gaze, and visual scene -- and establish common ground through clarifying dialogue when references are ambiguous. The project focuses on grounding as a situated, interactive process in shared physical environments, with an interest in future museum applications.
 
-This research is co-advised by professors [Zhi Tan](https://zhi.fyi/) and [Stacy C. Marsella](https://www.khoury.northeastern.edu/people/stacy-c-marsella/), and carried out of [PARCS Lab](https://parcslab.fyi/) and [CESAR Lab](https://www.cesarlab.org/).
+This research is co-advised by professors [Zhi Tan](https://www.khoury.northeastern.edu/people/zhi-tan/) and [Stacy C. Marsella](https://www.khoury.northeastern.edu/people/stacy-c-marsella/), and carried out of [PARCS Lab](https://parcslab.fyi/) and [CESAR Lab](https://www.cesarlab.org/).
 
 Currently:
 
 - Documenting research, implementation progress, and findings.
 - Maintaining project materials in the [`gesturehri`](https://github.com/juleechung/gesturehri) repository.
 - Exploring where a well-developed HRI system might be most impactful.
-  Currently examining wayfinding, accessibility, visitor engagement, and operational workflows in various domains/environments.
+  Currently examining collaboration, accessibility, visitor engagement, and operational workflows in various domains / environments.
 
 ## Research Focus Areas
 
