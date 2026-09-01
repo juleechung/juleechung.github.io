@@ -1,8 +1,12 @@
-# NSF DREAM Apprentice Research Site
+# NSF DREAM Apprentice Research Website
+
+## Website
+
+[https://juleechung.github.io](https://juleechung.github.io)
 
 ## Overview
 
-This research examines multimodal human-robot interaction with Boston Dynamics Spot, studying how a robot can ground human commands in perceptual context -- integrating speech, gesture, gaze, and visual scene -- and establish common ground through clarifying dialogue when references are ambiguous. The project focuses on grounding as a situated, interactive process in shared physical environments, with an interest in future museum applications.
+This research examines multimodal human-robot interaction with Boston Dynamics Spot, studying how a robot can ground human commands in perceptual context. It aims to integrate speech, gesture, gaze, and visual scene in HRI to establish common ground through clarifying dialogue when references are ambiguous. The project focuses on grounding as a situated, interactive process in shared physical environments, with an interest in future museum applications.
 
 This research is co-advised by professors [Zhi Tan](https://www.khoury.northeastern.edu/people/zhi-tan/) and [Stacy C. Marsella](https://www.khoury.northeastern.edu/people/stacy-c-marsella/), and carried out of [PARCS Lab](https://parcslab.fyi/) and [CESAR Lab](https://www.cesarlab.org/).
 
@@ -24,7 +28,3 @@ Currently:
 **Domain Applications:** Exploring how HRI research can extend into museums, cultural institutions, and other public-facing or collaborative environments.
 
 This site aims to document the research process and communicate the project clearly to anyone interested in human-robot interaction and human-centered robotics.
-
-## Site
-
-[https://juleechung.github.io](https://juleechung.github.io)
