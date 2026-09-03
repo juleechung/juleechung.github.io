@@ -13,7 +13,7 @@ This research is co-advised by professors [Zhi Tan](https://www.khoury.northeast
 Currently:
 
 - Documenting research, implementation progress, and findings.
-- Maintaining project materials in the [`gesturehri`](https://github.com/juleechung/gesturehri) repository.
+- Maintaining project materials in the [`multimodal hri`](https://github.com/juleechung/multimodal_hri) repository.
 - Exploring where a well-developed HRI system might be most impactful.
   Currently examining collaboration, accessibility, visitor engagement, and operational workflows in various domains / environments.
 
