@@ -46,7 +46,7 @@ title: DREAM Project Site
 
   <p>The broader goal is to develop interaction patterns that make robots easier to understand, direct, and collaborate with in shared spaces. I am especially interested in extending this work toward museum environments, where robots could support wayfinding, accessibility, visitor engagement, and behind-the-scenes workflows while respecting the social and cultural complexity of public institutions.</p>
 
-  <p>Project materials are maintained in the <a href="https://github.com/juleechung/gesturehri">gesturehri repository</a>. My research journal tracks weekly progress, including design decisions, implementation work, experimental findings, and open questions.</p>
+  <p>Project materials are maintained in the <a href="https://github.com/juleechung/multimodal_hri">multimodal hri repository</a>. My research journal tracks weekly progress, including design decisions, implementation work, experimental findings, and open questions.</p>
 
   <p><a href="final-report.html">Final Report</a></p>
 </section>
