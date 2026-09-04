@@ -54,11 +54,11 @@ title: DREAM Project Site
 <section class="content-section" id="about-me">
   <h2>About Me</h2>
 
-  <p>I am an M.S. Computer Science student at Northeastern University researching multimodal human-robot interaction with Boston Dynamics' Spot robot through the NSF DREAM program. My work is advised by Professors Stacy Marsella and Zhi Tan and focuses on socially grounded robot communication in real-world settings.</p>
+  <p>I am an M.S. Computer Science student at Northeastern University interested in research at the intersection of robotics, computer vision, human-centered AI. Currently, I'm researching multimodal human-robot interaction with Boston Dynamics' Spot robot through the NSF DREAM program. My work is advised by Professors Stacy Marsella and Zhi Tan and focuses on socially grounded HRI in real-world settings.</p>
 
-  <p>Before computer science, I worked for nearly a decade across museums, publishing, and digital products. I was editor of M+ Museum in Hong Kong, where I shaped institutional voice across publications, exhibitions, programs, and digital interfaces, including UX writing for the museum's Red Dot Design Award-winning website. I previously worked as assistant editor at <em>ArtAsiaPacific</em> magazine and studied painting at the Rhode Island School of Design and art history at the Courtauld Institute of Art.</p>
+  <p>Before studying computer science, I've worked for nearly a decade across museums, publishing, and digital products. I was editor of M+ Museum in Hong Kong, where I shaped the institutional voice across publications, exhibitions, programs, and digital interfaces, including UX writing for the museum's award-winning website. I previously worked as a journalist and assistant editor at <em>ArtAsiaPacific</em> magazine and studied painting at the Rhode Island School of Design and art history at the Courtauld Institute of Art.</p>
 
-  <p>I plan to graduate from Northeastern in 2027. I am fluent in English and Korean and am interested in research at the intersection of robotics, computer vision, human-centered AI, and cultural contexts for intelligent systems.</p>
+  <p>M.Sc Computer Science Candidateuman-Centered AI (HCAI) ha, Northeastern (2027)</p>
 </section>
 
 <section class="content-section" id="advisor">
