@@ -58,13 +58,13 @@ title: DREAM Project Site
 
   <p>Before studying computer science, I've worked for nearly a decade across museums, publishing, and digital products. I was editor of M+ Museum in Hong Kong, where I shaped the institutional voice across publications, exhibitions, programs, and digital interfaces, including UX writing for the museum's award-winning website. I previously worked as a journalist and assistant editor at <em>ArtAsiaPacific</em> magazine and studied painting at the Rhode Island School of Design and art history at the Courtauld Institute of Art.</p>
 
-  <p>M.Sc Computer Science Candidateuman-Centered AI (HCAI) ha, Northeastern (2027)</p>
+  <p>M.Sc Computer Science Candidate, Northeastern University (2027)</p>
 </section>
 
 <section class="content-section" id="advisor">
   <h2>Advisors</h2>
 
-  <p>This research is co-advised by professors <a href="https://zhi.fyi/">Zhi Tan</a> and <a href="https://www.khoury.northeastern.edu/people/stacy-c-marsella/">Stacy C. Marsella</a>, and carried out of <a href="https://parcslab.fyi/">PARCS Lab</a> and <a href="https://www.cesarlab.org/">CESAR Lab</a>.</p>
+  <p>This research is co-advised by professors <a href="https://www.khoury.northeastern.edu/people/zhi-tan/">Zhi Tan</a> and <a href="https://www.khoury.northeastern.edu/people/stacy-c-marsella/">Stacy C. Marsella</a>, and carried out of <a href="https://parcslab.fyi/">PARCS Lab</a> and <a href="https://www.cesarlab.org/">CESAR Lab</a>.</p>
 
   <p>Professor Tan's research explores human-robot interaction, assistive robotics, and how robots can collaborate with people, other robots, and intelligent systems in real-world contexts.</p>
 
