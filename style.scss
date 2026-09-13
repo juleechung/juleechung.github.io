@@ -881,3 +881,62 @@ body {
     .k { margin-bottom: 2px; }
   }
 }
+
+// ── Scene blocks (journal experiment scenes) ──────────────────────────────
+.scene-h {
+  margin: 34px 0 10px; font-size: 17px; font-weight: 700; color: #1f2429;
+  padding-bottom: 7px; border-bottom: 2px solid #ececec;
+}
+.scene { margin: 0 0 6px; }
+.scene-img {
+  display: block; width: 300px; height: auto; margin: 0 0 16px;
+  border-radius: 3px; border: 1px solid #e4e4e4;
+}
+.scene-img.wide { width: 420px; }
+.scene .r { display: flex; gap: 10px; margin-bottom: 6px; font-size: 14px; }
+.scene .k {
+  flex: 0 0 84px; padding-top: 3px; font-size: 11px; letter-spacing: .07em;
+  text-transform: uppercase; color: #9aa0a6; font-weight: 700;
+}
+.scene .v { flex: 1 1 auto; color: #333; }
+.scene .v.gt { font-weight: 600; color: #111; }
+.gtag {
+  display: inline-block; margin-left: 8px; padding: 2px 7px; border-radius: 2px;
+  background: #eef3f7; color: #3f5a6b; font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; font-weight: 700; vertical-align: 3px;
+}
+.na {
+  display: inline-block; padding: 1px 6px; border-radius: 2px; background: #eef0f2;
+  color: #5f6469; font-size: 10px; letter-spacing: .06em; text-transform: uppercase; font-weight: 700;
+}
+.mblock { margin: 16px 0 0; padding: 13px 0 0; border-top: 1px dashed #e2e2e2; }
+.mname {
+  font-size: 11px; letter-spacing: .07em; text-transform: uppercase;
+  color: #3f5a6b; font-weight: 700; margin-bottom: 8px;
+}
+.mresp { margin: 0; font-size: 14px; line-height: 1.65; color: #333; }
+.sp { font-weight: 700; color: #4a4a4a; }
+.mnote {
+  margin: 10px 0 0; padding-left: 12px; font-size: 13.5px; line-height: 1.6;
+  color: #5f6469; border-left: 2px solid #e4e4e4;
+}
+details.pd { margin: 9px 0 0; }
+details.pd summary {
+  cursor: pointer; font-size: 11px; letter-spacing: .07em; text-transform: uppercase;
+  color: #9aa0a6; font-weight: 700;
+}
+details.pd summary:hover { color: #333; }
+.rn {
+  margin: 9px 0 0; padding: 11px 13px; font-size: 13px; line-height: 1.6; color: #5b6065;
+  background: #fafbfc; border: 1px solid #eee; border-radius: 3px;
+}
+.obs {
+  margin: 18px 0 0; padding: 12px 14px; font-size: 14px; line-height: 1.65;
+  color: #464b50; background: #f7f9fa; border-left: 3px solid #cfd8de; border-radius: 2px;
+}
+#main .scene p, #main .scene .rn, #main .obs { max-width: none; }
+@media screen and (max-width: 760px) {
+  .scene-img, .scene-img.wide { width: 100%; max-width: 340px; }
+  .scene .r { display: block; }
+  .scene .k { margin-bottom: 2px; }
+}
