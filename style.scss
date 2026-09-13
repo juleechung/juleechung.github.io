@@ -661,3 +661,115 @@ body {
     line-height: 1.16;
   }
 }
+
+// ── Journal navigation ───────────────────────────────────────────────────────
+.journal-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.journal-sidebar {
+  flex: 0 0 140px;
+  position: sticky;
+  top: 24px;
+
+  h4 { margin: 0 0 12px; }
+
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { margin: 0; }
+
+  ul a {
+    display: block;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: #4a4a4a;
+    border-left: 2px solid #e8e8e8;
+    text-decoration: none;
+
+    &:hover { color: #111; background: #f5f7f9; border-left-color: #bbb; }
+
+    &.current {
+      font-weight: 700;
+      color: #111;
+      border-left-color: #111;
+      background: #f0f3f5;
+    }
+  }
+}
+
+.journal-nav-head { margin: 0 0 4px; }
+
+.journal-nav-head a,
+.journal-sidebar h4 a {
+  display: block;
+  padding: 2px 0;
+  font-size: 13px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #7a8288;
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover { color: #111; }
+}
+
+.journal-main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.journal-pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid #e8e8e8;
+
+  a { font-size: 16px; text-decoration: none; }
+
+  .label {
+    display: block;
+    font-size: 12px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #9aa0a6;
+    margin-bottom: 2px;
+  }
+
+  .next { text-align: right; margin-left: auto; }
+}
+
+.journal-backlink {
+  margin: 0 0 14px;
+
+  a {
+    font-size: 13px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #7a8288;
+    font-weight: 700;
+    text-decoration: none;
+
+    &:hover { color: #111; }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .journal-layout { display: block; }
+
+  .journal-sidebar {
+    position: static;
+    margin-bottom: 28px;
+
+    ul { display: flex; flex-wrap: wrap; gap: 6px; }
+
+    ul a {
+      border-left: 0;
+      border: 1px solid #e2e2e2;
+      border-radius: 3px;
+      padding: 4px 9px;
+    }
+  }
+}

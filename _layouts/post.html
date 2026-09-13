@@ -2,11 +2,48 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+{% assign weeks = site.posts | sort: 'week' %}
+{% assign prev_week = page.week | minus: 1 %}
+{% assign next_week = page.week | plus: 1 %}
+{% assign prev_post = nil %}
+{% assign next_post = nil %}
+{% for p in weeks %}
+  {% if p.week == prev_week %}{% assign prev_post = p %}{% endif %}
+  {% if p.week == next_week %}{% assign next_post = p %}{% endif %}
+{% endfor %}
 
-  <div class="entry">
-    {{ content }}
+<div class="journal-layout">
+  <aside class="journal-sidebar">
+    <p class="journal-nav-head"><a href="{{ site.baseurl }}/">Main</a></p>
+    <h4><a href="{{ site.baseurl }}/blog/">Journal</a></h4>
+    <ul>
+      {% for p in weeks %}
+      <li><a href="{{ site.baseurl }}{{ p.url }}"{% if p.week == page.week %} class="current"{% endif %}>{{ p.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+
+  <div class="journal-main">
+    <article class="post">
+      <h1>{{ page.title }}</h1>
+
+      <div class="entry">
+        {{ content }}
+      </div>
+
+      <nav class="journal-pager">
+        {% if prev_post %}
+        <a class="prev" href="{{ site.baseurl }}{{ prev_post.url }}"><span class="label">Previous</span>{{ prev_post.title }}</a>
+        {% else %}
+        <a class="prev" href="{{ site.baseurl }}/blog/"><span class="label">Previous</span>Journal</a>
+        {% endif %}
+
+        {% if next_post %}
+        <a class="next" href="{{ site.baseurl }}{{ next_post.url }}"><span class="label">Next</span>{{ next_post.title }}</a>
+        {% else %}
+        <span></span>
+        {% endif %}
+      </nav>
+    </article>
   </div>
-
-</article>
+</div>
