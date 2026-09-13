@@ -14,13 +14,21 @@ title: Research Journal
   {% assign journal_posts = site.posts | reverse %}
   {% for post in journal_posts %}
     <article class="journal-entry">
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="je-text">
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-      <div class="entry">
-        {{ post.excerpt }}
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      {% if post.thumb %}
+      <a class="je-thumb" href="{{ site.baseurl }}{{ post.url }}">
+        <img src="{{ site.baseurl }}/images/{{ post.thumb }}" alt="{{ post.thumb_alt }}" loading="lazy">
+      </a>
+      {% endif %}
     </article>
   {% endfor %}
 </div>
