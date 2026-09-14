@@ -985,3 +985,61 @@ details.pd summary:hover { color: #333; }
     }
   }
 }
+
+// ── Live run blocks (recorded sessions) ──────────────────────────────────────
+.runvid {
+  display: block;
+  width: 100%;
+  max-width: 680px;
+  height: auto;
+  margin: 0 0 16px;
+  border-radius: 3px;
+  border: 1px solid #d8dde1;
+  background: #000;
+}
+
+pre.log {
+  margin: 9px 0 0;
+  padding: 12px 14px;
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.55;
+  color: #3d4348;
+  white-space: pre;
+  background: #f7f8f9;
+  border: 1px solid #e6e8ea;
+  border-radius: 3px;
+}
+
+.scene {
+  .k { flex: 0 0 122px; }
+
+  .v.resp {
+    font-weight: 600;
+    color: #4a2c8f;
+    background: #f5f2fb;
+    border-left: 3px solid #b9a5e0;
+    border-radius: 2px;
+    padding: 8px 11px;
+    line-height: 1.55;
+  }
+
+  .hit, .miss, .part {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 2px;
+    font-size: 10px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .hit  { background: #e6f4ea; color: #1e6b34; }
+  .miss { background: #fce8e6; color: #a5261a; }
+  .part { background: #fef3d8; color: #8a6100; }
+}
+
+@media screen and (max-width: 760px) {
+  .scene .k { flex: none; }
+}
