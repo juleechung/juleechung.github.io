@@ -48,8 +48,7 @@ title: DREAM Project Site
 
   <p>Project materials are maintained in the <a href="https://github.com/juleechung/multimodal_hri">multimodal hri repository</a>. My research journal tracks weekly progress, including design decisions, implementation work, experimental findings, and open questions.</p>
 
-  <p><a href="{{ site.baseurl }}/final-report/">Final Report</a></p>
-</section>
+<p><a href="{{ site.baseurl }}/dream-report.pdf">Final Report</a></p>
 
 <section class="content-section" id="about-me">
   <h2>About Me</h2>
